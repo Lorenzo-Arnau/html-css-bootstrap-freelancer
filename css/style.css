@@ -51,14 +51,14 @@ ul{
 .personal-btn{
   background-color: #1ABC9C;
   border-color: #fff;
-  margin: 10px 0px;;
+  margin: 10px 0px;
 }
 .form-container{
 
 }
 .form-item{
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 0px;
   border-bottom: 1px solid #ccc;
   color: #2C3E50;
 }
