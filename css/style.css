@@ -13,13 +13,38 @@ main div:first-child img{
   height: 150px;
   margin-top: 20px;
 }
-main div:first-child span hr{
-  width: 100px;
+.star{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   line-height: 50px;
   margin: 10px 20px;
-  border: 2px solid ;
+  position: relative;
+}
+.star::after{
+  content: "";
+  display:block;
+  width: 100px;
+  height:3px;
+  background: #2C3E50;
+  position: absolute;
+  right:40px;
+  top: 30%;
+}
+.star::before{
+  content: "";
+  display:block;
+  width: 100px;
+  height:3px;
+  background: #2C3E50;
+  position: absolute;
+  left: 40px;
+  top: 30%;
+}
+.star-white::after{
+  background: #fff;
+}
+.star-white::before{
+  background: #fff;
 }
 main div:first-child i{
   font-size: 30px;
