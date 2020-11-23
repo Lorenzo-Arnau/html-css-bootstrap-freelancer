@@ -14,7 +14,7 @@ main div:first-child img{
   margin-top: 20px;
 }
 main div:first-child span hr{
-  width: 120px;
+  width: 100px;
   display: inline-block;
   vertical-align: top;
   line-height: 50px;
@@ -71,9 +71,15 @@ text-align:center;
   padding: 5px 8px;
 }
 footer div:first-child{
-  background-color:#2C3E50;
+  background-color:#3A546D;
   color: #fff;
 }
 .start-link{
   color: #1ABC9C;
+}
+footer .container-fluid:last-child{
+  background-color:#2C3E50;
+  height: 50px;
+  text-align: center;
+  color: #fff;
 }
