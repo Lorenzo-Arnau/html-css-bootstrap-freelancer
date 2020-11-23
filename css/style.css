@@ -2,11 +2,12 @@ header{
   height: 80px;
   background-color: #2C3E50;
 }
-.container-fluid .row:first-child{
+.container-fluid .row:first-child,.ABOUT-sec{
   background-color: #1ABC9C;
   text-align: center;
   color: #fff;
   font-weight: bold;
+  padding-top: 30px;
 }
 main div:first-child img{
   height: 150px;
@@ -37,4 +38,17 @@ ul{
 }
 .IMAGE-sec{
   padding-bottom:40px;
+}
+.paragraph{
+  margin-bottom: 30px;
+}
+.ABOUT-sec+.row{
+  background-color: #1ABC9C;
+  color: #fff;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+.download-btn{
+  background-color: #1ABC9C;
+  border-color: #fff;
 }
