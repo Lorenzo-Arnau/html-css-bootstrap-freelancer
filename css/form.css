@@ -1,0 +1,15 @@
+[class*="form-control"]::placeholder{
+  color:#2C3E50;
+  font-size: 20px;
+}
+[class*="form-control"]{
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  border-radius: 0;
+  padding:10px 0px;
+  font-size: 20px;
+}
+[type*="submit"]{
+  color:#fff;
+}

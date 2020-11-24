@@ -7,10 +7,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/navbarstyle.css">
   </head>
   <body>
     <!-- definisco spazio per navbar -->
-    <header class="col-xs-12"></header>
+    <header class="xs-col-12">
+      <nav class="navbar navbar-default bl-navbar">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand colored" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse colored">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Default</a></li>
+                <li><a href="#">Static top</a></li>
+                <li><a href="#">Fixed top</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
     <!-- /definisco spazio per navbar -->
 
     <!-- definisco spazio per main-jumbotron -->
@@ -21,7 +44,7 @@
           <h1>START BOOTSTRAP</h1>
           <span class="star star-white"><i class="fa fa-star" aria-hidden="true"></i></span>
           <div class="col-xs-12">
-            <ul class="list-inline">
+            <ul class="list-inline jumbotron-list">
               <li>GRAPHIC ARTIST</li>
               <li>&#8213;</li>
               <li>WEB DESIGNER</li>
@@ -75,37 +98,49 @@
             <a href="#" class="btn btn-success btn-md personal-btn"><i class="fa fa-download" aria-hidden="true"></i> Download</a>
           </div>
         </div>
-
+       <!-- Form section -->
         <div class="row CONTACT-sec">
           <h2>CONTACT ME</h2>
           <span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
         </div>
-        <div class="container col-xs-10 col-xs-offset-1 form-container">
-          <div class="form-item">Name</div>
-          <div class="form-item">Email Address</div>
-          <div class="form-item">Phone number</div>
-          <div class="form-item">Message<textarea class="form-control" rows="7"></textarea>
+        <div class="container col-xs-10 col-xs-offset-1">
+          <form role="form bl-form">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Phone Number">
+            </div>
+            <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-success personal-btn">Send</button>
+          </form>
           </div>
-
-          <button type="button" class="btn btn-success btn-md personal-btn">Send</button>
+           <!-- /Form section -->
         </div>
       </div>
     </main>
     <!-- /definisco spazio per main-jumbotron -->
+
+    <!-- FOOTER and credits -->
     <footer>
       <div class="container-fluid">
         <div class="container col-xs-10 col-xs-offset-1">
           <div class="col-xs-12 col-md-4">
             <h4>Location</h4>
-            <p>2215 John Daniel Drive Clark, MO 54243</p>
+            <address>
+              <p>2215 John Daniel Drive Clark, MO 54243</p>
+            </address>
           </div>
           <div class="col-xs-12 col-md-4">
             <h4>AROUND THE WEB</h4>
             <span>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-google-plus-official" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-facebook icona" aria-hidden="true"></i>
+              <i class="fa fa-google-plus icona" aria-hidden="true"></i>
+              <i class="fa fa-twitter icona" aria-hidden="true"></i>
+              <i class="fa fa-linkedin icona" aria-hidden="true"></i>
             </span>
           </div>
           <div class="col-xs-12 col-md-4">
@@ -118,6 +153,8 @@
         Copyright &#169; Your Website 2019
       </div>
     </footer>
+    <!-- FOOTER and credits -->
   </body>
 </html>
+
 <!-- END VERSION CHECKED -->
