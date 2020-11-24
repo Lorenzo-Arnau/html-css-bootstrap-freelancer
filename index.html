@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/navbarstyle.css">
+    <!--TODO: possibilità di aggiungere questi link per ridurre volume css -->
+    <!-- <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/navbarstyle.css"> -->
   </head>
   <body>
     <!-- definisco spazio per navbar -->
@@ -22,13 +23,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand colored" href="#">Project name</a>
+              <a class="navbar-brand colored" href="#">start bootstrap</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse colored">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Default</a></li>
-                <li><a href="#">Static top</a></li>
-                <li><a href="#">Fixed top</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div><!--/.container-fluid -->
@@ -39,7 +40,7 @@
     <!-- definisco spazio per main-jumbotron -->
     <main>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row bl-jumbotron">
           <img src="img/avataaars.svg" alt="avatars">
           <h1>START BOOTSTRAP</h1>
           <span class="star star-white"><i class="fa fa-star" aria-hidden="true"></i></span>
@@ -106,13 +107,13 @@
         <div class="container col-xs-10 col-xs-offset-1">
           <form role="form bl-form">
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
             </div>
             <div class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Phone Number">
+              <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Phone Number">
             </div>
             <textarea class="form-control" rows="6" placeholder="Message"></textarea>
             <button type="submit" class="btn btn-success personal-btn">Send</button>
@@ -137,10 +138,10 @@
           <div class="col-xs-12 col-md-4">
             <h4>AROUND THE WEB</h4>
             <span>
-              <i class="fa fa-facebook icona" aria-hidden="true"></i>
-              <i class="fa fa-google-plus icona" aria-hidden="true"></i>
-              <i class="fa fa-twitter icona" aria-hidden="true"></i>
-              <i class="fa fa-linkedin icona" aria-hidden="true"></i>
+              <a href="#"><i class="fa fa-facebook icona" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google-plus icona" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter icona" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin icona" aria-hidden="true"></i></a>
             </span>
           </div>
           <div class="col-xs-12 col-md-4">
