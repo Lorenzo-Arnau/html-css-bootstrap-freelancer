@@ -12,8 +12,10 @@
   height: 35px;
   width: 35px;
   line-height: 35px;
-  color: #fff;
   margin-bottom: 20px;
+}
+.text-white{
+  color: #fff;
 }
 /* BLOCCO STELLA E RIGHE */
 .star{
@@ -77,9 +79,6 @@
   padding:10px 0px;
   font-size: 20px;
 }
-[type*="submit"]{
-  color:#fff;
-}
 /* /STILE DEDICATO:FORM */
 
 header{
@@ -89,7 +88,6 @@ header{
 .bl-jumbotron,.ABOUT-sec{
   background-color: #1ABC9C;
   text-align: center;
-  color: #fff;
   font-weight: bold;
   padding-top: 30px;
 }
@@ -123,7 +121,6 @@ main div:first-child i{
 }
 .ABOUT-sec+.row{
   background-color: #1ABC9C;
-  color: #fff;
   font-weight: bold;
   padding: 30px 0px;
 }
@@ -132,7 +129,6 @@ text-align:center;
 }
 footer div:first-child{
   background-color:#3A546D;
-  color: #fff;
 }
 .start-link{
   color: #1ABC9C;
@@ -141,7 +137,6 @@ footer .container-fluid:last-child{
   background-color:#2C3E50;
   height: 50px;
   text-align: center;
-  color: #fff;
   padding:20px 0px 50px 0px;
 }
 
