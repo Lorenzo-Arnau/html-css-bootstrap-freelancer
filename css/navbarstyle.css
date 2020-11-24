@@ -12,6 +12,19 @@
 .bl-navbar.navbar-default .navbar-nav>li>a{
   font-size: 14px;
 }
+.bl-navbar.navbar-default .navbar-nav>li>a:hover{
+  color: #1ABC9C;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #000;
+}
 .bl-navbar.navbar-default .navbar-toggle .icon-bar{
   background-color: #1ABC9C;
+}
+.bl-navbar .colored:hover{
+  color: #1ABC9C;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #000;
+}
+.bl-navbar .navbar-toggle{
+  top: 12px;
 }
